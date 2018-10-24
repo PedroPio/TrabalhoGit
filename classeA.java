@@ -1,19 +1,26 @@
 public class ClasseA{
-    private float a;
-    private float b;
+    private int a1;
+    private float a2;
+    private String a3;
 
-    public float getA(){
-        return a;
+    public int getA1(){
+        return a1;
     }
-    public float getB(){
-        return b;
+    public float getA2()){
+        return a2;
     }
-    public void setA(float a){
-        a = a -1;
+    public void setA1(int a1){
+        a1 = a1 -1;
 
     }
-    public void setB(float b){
-        b = b -1;
+    public void setA2(float a2){
+        a2 = a2 -1;
 
+    }
+    public String getA3(){
+        return a3;
+    }
+    public void setA3(String A3){
+        a3 = "";
     }
 }
