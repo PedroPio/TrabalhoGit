@@ -23,4 +23,7 @@ public class ClasseA{
     public void setA3(String A3){
         a3 = "";
     }
+    public float soma(int a1, float a2){
+        return a1 + a2 ;
+    }
 }
